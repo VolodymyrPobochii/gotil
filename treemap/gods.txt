@@ -1,0 +1,607 @@
+TestMain::start
+goos: darwin
+goarch: arm64
+pkg: github.com/VolodymyrPobochii/gotil/treemap
+BenchmarkMapPut_TreeMap 	  935280	      2253 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=935280
+BenchmarkMapPut_TreeMap 	  992271	      1950 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=992271
+BenchmarkMapPut_TreeMap 	  975979	      2125 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=975979
+BenchmarkMapPut_TreeMap 	  845583	      2199 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=845583
+BenchmarkMapPut_TreeMap 	 1000000	      1926 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  995743	      2048 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=995743
+BenchmarkMapPut_TreeMap 	  990980	      2222 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=990980
+BenchmarkMapPut_TreeMap 	  847567	      2427 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=847567
+BenchmarkMapPut_TreeMap 	  733309	      2055 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=733309
+BenchmarkMapPut_TreeMap 	  978356	      1864 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=978356
+BenchmarkMapPut_TreeMap 	 1000000	      2098 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  998280	      1847 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=998280
+BenchmarkMapPut_TreeMap 	 1000000	      2471 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  819554	      2117 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=819554
+BenchmarkMapPut_TreeMap 	  997782	      2124 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=997782
+BenchmarkMapPut_TreeMap 	 1000000	      1755 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	 1000000	      2130 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  839230	      2145 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=839230
+BenchmarkMapPut_TreeMap 	  852895	      2011 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=852895
+BenchmarkMapPut_TreeMap 	 1000000	      2210 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  993768	      2172 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=993768
+BenchmarkMapPut_TreeMap 	  998900	      2093 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=998900
+BenchmarkMapPut_TreeMap 	  833364	      2121 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=833364
+BenchmarkMapPut_TreeMap 	  924914	      2179 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=924914
+BenchmarkMapPut_TreeMap 	 1000000	      2276 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  990013	      2157 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=990013
+BenchmarkMapPut_TreeMap 	  864736	      2483 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=864736
+BenchmarkMapPut_TreeMap 	 1000000	      2174 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  996487	      2204 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=996487
+BenchmarkMapPut_TreeMap 	  984780	      2162 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=984780
+BenchmarkMapPut_TreeMap 	 1000000	      2372 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  852567	      2346 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=852567
+BenchmarkMapPut_TreeMap 	  991752	      2072 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=991752
+BenchmarkMapPut_TreeMap 	 1000000	      1745 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	 1000000	      1847 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  719044	      2563 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=719044
+BenchmarkMapPut_TreeMap 	 1000000	      1696 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  989061	      2036 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=989061
+BenchmarkMapPut_TreeMap 	  998502	      2144 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=998502
+BenchmarkMapPut_TreeMap 	 1000000	      1991 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  815188	      2470 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=815188
+BenchmarkMapPut_TreeMap 	 1000000	      1947 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  982964	      2125 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=982964
+BenchmarkMapPut_TreeMap 	  962161	      2374 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=962161
+BenchmarkMapPut_TreeMap 	  991626	      2187 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=991626
+BenchmarkMapPut_TreeMap 	  736858	      2070 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=736858
+BenchmarkMapPut_TreeMap 	  976376	      2012 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=976376
+BenchmarkMapPut_TreeMap 	  988012	      2139 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=988012
+BenchmarkMapPut_TreeMap 	  994539	      1883 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=994539
+BenchmarkMapPut_TreeMap 	  715476	      2124 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=715476
+BenchmarkMapPut_TreeMap 	  997432	      2159 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=997432
+BenchmarkMapPut_TreeMap 	 1000000	      2215 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  996645	      2323 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=996645
+BenchmarkMapPut_TreeMap 	 1000000	      2464 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	 1000000	      1866 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  979360	      2000 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=979360
+BenchmarkMapPut_TreeMap 	  982732	      1993 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=982732
+BenchmarkMapPut_TreeMap 	  995496	      2300 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=995496
+BenchmarkMapPut_TreeMap 	  956533	      2136 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=956533
+BenchmarkMapPut_TreeMap 	  955359	      1888 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=955359
+BenchmarkMapPut_TreeMap 	  960604	      1937 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=960604
+BenchmarkMapPut_TreeMap 	  995822	      2360 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=995822
+BenchmarkMapPut_TreeMap 	  972009	      2196 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=972009
+BenchmarkMapPut_TreeMap 	  957962	      2099 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=957962
+BenchmarkMapPut_TreeMap 	 1000000	      2105 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  987880	      2277 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=987880
+BenchmarkMapPut_TreeMap 	  846354	      2297 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=846354
+BenchmarkMapPut_TreeMap 	 1000000	      1728 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  980715	      2201 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=980715
+BenchmarkMapPut_TreeMap 	  986476	      2230 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=986476
+BenchmarkMapPut_TreeMap 	  815791	      2055 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=815791
+BenchmarkMapPut_TreeMap 	 1000000	      2160 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  990507	      1916 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=990507
+BenchmarkMapPut_TreeMap 	  947180	      1886 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=947180
+BenchmarkMapPut_TreeMap 	 1000000	      2729 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  875187	      2506 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=875187
+BenchmarkMapPut_TreeMap 	  872653	      3356 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=872653
+BenchmarkMapPut_TreeMap 	 1000000	      2090 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  997692	      2037 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=997692
+BenchmarkMapPut_TreeMap 	  953736	      2154 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=953736
+BenchmarkMapPut_TreeMap 	  983008	      2067 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=983008
+BenchmarkMapPut_TreeMap 	  997633	      2089 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=997633
+BenchmarkMapPut_TreeMap 	 1000000	      2392 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  801991	      1955 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=801991
+BenchmarkMapPut_TreeMap 	 1000000	      2203 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  999049	      2282 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=999049
+BenchmarkMapPut_TreeMap 	  981002	      2138 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=981002
+BenchmarkMapPut_TreeMap 	  980241	      2287 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=980241
+BenchmarkMapPut_TreeMap 	 1000000	      2003 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  990387	      1714 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=990387
+BenchmarkMapPut_TreeMap 	 1000000	      2250 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	 1000000	      1988 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  742160	      1972 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=742160
+BenchmarkMapPut_TreeMap 	 1000000	      2007 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	 1000000	      1914 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=1000000
+BenchmarkMapPut_TreeMap 	  978097	      2176 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=978097
+BenchmarkMapPut_TreeMap 	  872460	      2536 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=872460
+BenchmarkMapPut_TreeMap 	  986223	      2122 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=986223
+BenchmarkMapPut_TreeMap 	  979332	      2119 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=979332
+BenchmarkMapPut_TreeMap 	  991104	      1867 ns/op	     567 B/op	      11 allocs/op
+--- BENCH: BenchmarkMapPut_TreeMap
+    tree_map_test.go:77: map.size=1
+    tree_map_test.go:77: map.size=100
+    tree_map_test.go:77: map.size=10000
+    tree_map_test.go:77: map.size=991104
+PASS
+TestMain::finish
+ok  	github.com/VolodymyrPobochii/gotil/treemap	228.850s

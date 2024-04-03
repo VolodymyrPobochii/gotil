@@ -7,7 +7,7 @@ go_library(
         "map.go",
         "tree_map.go",
     ],
-    importpath = "github.com/VolodymyrPobochii/gotil/treemap",
+    importpath = "github.com/pobochiigo/gotil/treemap",
     visibility = ["//visibility:public"],
     deps = ["@org_golang_x_exp//constraints"],
 )

@@ -2,8 +2,8 @@ package treemap
 
 import (
 	"fmt"
-	"github.com/VolodymyrPobochii/gotil/comparator"
-	"github.com/VolodymyrPobochii/gotil/core"
+	"github.com/pobochiigo/gotil/comparator"
+	"github.com/pobochiigo/gotil/core"
 	"github.com/emirpasic/gods/maps/treemap"
 	"log"
 	"math/rand"

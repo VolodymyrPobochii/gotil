@@ -1,4 +1,4 @@
-module github.com/VolodymyrPobochii/gotil
+module github.com/pobochiigo/gotil
 
 go 1.22
 

@@ -1,7 +1,7 @@
 TestMain::start
 goos: darwin
 goarch: arm64
-pkg: github.com/VolodymyrPobochii/gotil/treemap
+pkg: github.com/pobochiigo/gotilp
 BenchmarkMapPut_TreeMap_Sync-8   	  939662	      2656 ns/op	     802 B/op	      12 allocs/op
 --- BENCH: BenchmarkMapPut_TreeMap_Sync-8
     tree_map_test.go:122: map.size=0
@@ -605,4 +605,4 @@ BenchmarkMapPut_TreeMap_Sync-8   	 1000000	      1824 ns/op	     546 B/op	      
     tree_map_test.go:122: map.size=518679
 PASS
 TestMain::finish
-ok  	github.com/VolodymyrPobochii/gotil/treemap	420.415s
+ok  	github.com/pobochiigo/gotil/treemap	420.415s

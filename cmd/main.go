@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/VolodymyrPobochii/gotil/comparator"
-	"github.com/VolodymyrPobochii/gotil/treemap"
+	"github.com/pobochiigo/gotil/comparator"
+	"github.com/pobochiigo/gotil/treemap"
 	"math/rand"
 	"time"
 )

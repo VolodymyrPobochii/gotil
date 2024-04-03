@@ -2,8 +2,8 @@ package treemap
 
 import (
 	"fmt"
-	"github.com/VolodymyrPobochii/gotil/comparator"
-	"github.com/VolodymyrPobochii/gotil/core"
+	"github.com/pobochiigo/gotil/comparator"
+	"github.com/pobochiigo/gotil/core"
 	"golang.org/x/exp/constraints"
 	"reflect"
 )

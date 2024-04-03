@@ -18,7 +18,11 @@ type treeMap[K constraints.Ordered, V any] struct {
 	values     []V
 }
 
-func New[K constraints.Ordered, V any](comparator comparator.Comparable[K]) core.Map[K, V] {
+func New[K constraints.Ordered, V any]() core.Map[K, V] {
+	return &treeMap[K, V]{}
+}
+
+func NewWithComparator[K constraints.Ordered, V any](comparator comparator.Comparable[K]) core.Map[K, V] {
 	return &treeMap[K, V]{comparator: comparator}
 }
 

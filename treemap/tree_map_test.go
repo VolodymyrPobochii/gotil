@@ -2,9 +2,9 @@ package treemap
 
 import (
 	"fmt"
+	"github.com/emirpasic/gods/maps/treemap"
 	"github.com/pobochiigo/gotil/comparator"
 	"github.com/pobochiigo/gotil/core"
-	"github.com/emirpasic/gods/maps/treemap"
 	"log"
 	"math/rand"
 	"os"
@@ -158,7 +158,7 @@ func afterTest() {
 }
 
 func beforeTest() {
-	tm = New[string, item](nil)
-	tmc = New[string, item](comparator.New[string](comparator.ASC))
+	tm = New[string, item]()
+	tmc = NewWithComparator[string, item](comparator.New[string](comparator.ASC))
 	gods = treemap.NewWithStringComparator()
 }

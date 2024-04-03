@@ -28,8 +28,7 @@ const Chars = "ABCDEFGHIJKLMOPQRSTUVWXYZ"
 func testTreeMap() {
 
 	cmpr := comparator.New[string](comparator.ASC)
-
-	tm := treemap.New[string, item](cmpr)
+	tm := treemap.NewWithComparator[string, item](cmpr)
 	charsSize := len(Chars)
 
 	s := time.Now()
